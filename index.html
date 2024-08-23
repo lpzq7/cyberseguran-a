@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEEP GERCILIO DE CASTRO MACEDO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F0F2F5;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        header {
+            background-color: #1877F2;
+            padding: 10px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .container {
+            display: flex;
+            height: 100%;
+        }
+        nav {
+            width: 260px;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 15px 0;
+            display: flex;
+            align-items: center;
+        }
+        nav ul li img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+        .content {
+            flex: 1;
+            background-color: #F0F2F5;
+            padding: 20px;
+        }
+        .post {
+            background-color: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+        }
+        .post header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .post header img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .post header div {
+            display: flex;
+            flex-direction: column;
+        }
+        .post header div span {
+            font-size: 14px;
+            color: gray;
+        }
+        .image-container {
+            position: relative;
+            display: inline-block;
+        }
+        .post img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .image-container button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding: 10px 20px;
+            background-color: #1877F2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .image-container button:hover {
+            background-color: #165DB6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Facebook</h1>
+        </div>
+        <div>
+            <span>Ceep Gercilio de Castro Macedo</span>
+        </div>
+    </header>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><img src="https://cdn.discordapp.com/attachments/1275242421751517296/1275245225161527356/image.png?ex=66c5302a&is=66c3deaa&hm=9855fdede9355649e853a7961e1e80d8db86213e6775c9ff12fddcb489cf8f6c&" alt="Friends"> Encontrar amigos</li>
+                <li><img src="https://cdn.discordapp.com/attachments/1275242421751517296/1275245315615883294/image.png?ex=66c53040&is=66c3dec0&hm=58bae9e9bf73ac7ba2f04d31b88b5f3da7ab1469a52f040dbc21534f5b266a43&" alt="Memories"> Lembranças</li>
+                <li><img src="https://cdn.discordapp.com/attachments/1275242421751517296/1275245334565617714/image.png?ex=66c53044&is=66c3dec4&hm=31a3e8b727bd70182316cb278869890f93837d8d3b8374121161fb8816487ae6&" alt="Saved"> Salvos</li>
+                <li><img src="https://cdn.discordapp.com/attachments/1275242421751517296/1275245352081031209/image.png?ex=66c53048&is=66c3dec8&hm=590656fe1a0db58c2ea4028cf5f015493c60b6619643dd8acf95cbabeaf03ab2&" alt="Groups"> Grupos</li>
+                <li><img src="https://cdn.discordapp.com/attachments/1275242421751517296/1275245542716346462/image.png?ex=66c53076&is=66c3def6&hm=8e3324ac304368d981d2c8ad89d53935164527a084406bf345db0ed620b83253&" alt="Video"> Video</li>
+                <li><img src="https://cdn.discordapp.com/attachments/1275242421751517296/1275245376722698332/image.png?ex=66c5304e&is=66c3dece&hm=c3b6c2289f90e6e5324f360f3715ff367fc5071a546920a71b45abd5f38688cc&" alt="Marketplace"> Marketplace</li>
+                <li><img src="https://cdn.discordapp.com/attachments/1275242421751517296/1275245630943662122/image.png?ex=66c5308b&is=66c3df0b&hm=c739eafd53e0848ba942fc3d5fff621e274da62bb3ab6b3fdffc4b13292b760e&" alt="Events"> Eventos</li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="post">
+                <header>
+                    <img src="https://cdn.discordapp.com/attachments/1275242421751517296/1275246090970464347/Design_sem_nome.png?ex=66c530f9&is=66c3df79&hm=7c5a43a08312730aa5735fa7079b40829835e5cf1bd56b477bbec1a4915d0057&" alt="Empresa Fones de Ouvido LTDA">
+                    <div>
+                        <strong>Empresa Fones de Ouvido LTDA</strong>
+                        <span>17 de agosto às 20:52</span>
+                    </div>
+                </header>
+                <p>PROMOÇAO RELAMPAGO // FONE DE OUVIDO</p>
+                <div class="image-container">
+                    <!-- Redirects to the purchase form page -->
+                    <button onclick="window.location.href='compra.html';">LINK DO PRODUTO</button>
+                    <img src="https://cdn.discordapp.com/attachments/1071890090839785657/1275121238137638964/Post_instagram_para_loja_de_eletronicos_fone_de_ouvido_anuncio_preto_e_roxo.png?ex=66c4bcb1&is=66c36b31&hm=afbfa03dcdc7395407008c2a917be6aeaee6631b9a15285dbf07bf76780a4a56&" alt="Cartoon Image">
+               
+               
+               
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
